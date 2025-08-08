@@ -1,0 +1,41 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>StudentApp-signup</title>
+<link rel="stylesheet" href="Signup.css">
+</head>
+<body>
+<div class="signup">
+	<div class="intro-box" id="box">
+		<h1>Pentagon Space</h1>
+		<p>Application form</p>
+		<%if(request.getAttribute("error")!=null){%>
+	     <h4 class="error"><%=request.getAttribute("error") %></h4>
+	     <%}%>
+	</div>
+	<div class="form" id="box">
+ 		<form action="signup" method="post"  class="form-box" target="_blank">
+ 			<label for="name">Enter Your Name</label>
+ 			<input type="text" name="name" id="name">
+ 			<label for="phone">Enter the phone number</label>
+ 			<input type="tel" name="phone" id="phone">
+ 			<label for="email">Enter the Mail ID</label>
+ 			<input type="email" name="email" id="email">
+ 			<label for="branch">Enter the branch</label>
+ 			<input type="text" name="branch" id="branch">
+ 			<label for="location">Enter the Location</label>
+ 			<input type="text" name="location" id="location">
+ 			<label for="password">Enter the password</label>
+ 			<input type="text" name="password" id="password" required>
+ 			<label for="confirm">Confirm password</label>
+ 			<input type="password" name="confirm" id="confirm">
+ 			<input type="submit" value="Create account" class="button"> 	
+ 		</form>
+ 		<p>Already have an account?&nbsp;<a href="Login.jsp"> Login</a></p>
+ 	</div>
+ </div>
+</body>
+</html>

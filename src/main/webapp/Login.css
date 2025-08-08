@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+label,input{
+	display:block;
+}
+body{
+	background-color:#eef2f3;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.container{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	margin-top:100px;
+	border:1px solid black;
+	border-radius:10px;
+	width:300px;
+	background-color:#fff;
+	
+
+}
+.container h1{
+	color:#0056b3
+}
+
+.form-container{
+	display:flex;
+	flex-direction:column;
+	gap:8px;
+}
+.button{
+	text-align:center;
+	
+}
+
+.login-btn{
+	width:80px;
+	background-color:#0056b3;
+	color:white;
+	padding:8px;
+	margin:10px auto;
+	border-radius:5px;
+}
+.button a{
+	text-decoration:none;
+}
+.form-container a{
+	text-decoration:none;
+}
+.success{
+	color:green;
+	margin:10px;
+}
