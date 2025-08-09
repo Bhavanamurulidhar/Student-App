@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Update</title>
 <link rel="stylesheet" href="Update.css">
 </head>
 <body>
@@ -14,7 +14,7 @@
 <div class="container">
 	     <h1>Update Account</h1>
 	     
-	     <form action="Update" class="form-container" target="_blank" method="post">
+	     <form action="Update" class="form-container"  method="post">
 	     	<label for="name">Enter your Name</label>
 	     	<input type="text" name="name" id="name" value="<%=s.getName()%>">
 	     	<label for="phone">Enter the phone number</label>
@@ -26,8 +26,8 @@
  			<label for="location">Enter the Location</label>
  			<input type="text" name="location" id="location" value="<%=s.getLoc()%>">
 	     	<div class="button">
-	     	<input type="submit" value="Update account" class="Update-btn">
-	     	<input type="submit" value="Back" onclick="window.location.href='Dashboard.jsp';">
+	     		<input type="submit" value="Update account" class="Update-btn">
+	     		<input type="submit" value="Back" class="Update-btn" onclick="window.location.href='Dashboard.jsp';">
 	     	
 	     	</div>
 	   

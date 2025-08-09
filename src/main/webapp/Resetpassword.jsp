@@ -15,16 +15,16 @@
 	 <%}%>
 	 
 	<form action="Resetpassword" class="form-container" target="_blank" method="post">
-	<label for="phone">Enter the Phone number</label>
-	<input type="tel" name="phone" id="phone">
-	<label for="mail">Enter the Mail ID</label>
-	<input type="email" name="email" id="mail">
-	<label for="password">Enter the new password</label>
-	<input type="password" name="password" id="password">
-	<label for="confirm">Confirm the password</label>
-	<input type="password" name="confirm" id="confirm">
- 	<input type="submit" value="Reset Password" class="button">
- 	<input type="submit" value="Back" class="button1" onclick="window.location.href='Login.jsp';">
+		<label for="phone">Enter the Phone number</label>
+		<input type="tel" name="phone" id="phone">
+		<label for="mail">Enter the Mail ID</label>
+		<input type="email" name="email" id="mail">
+		<label for="password">Enter the new password</label>
+		<input type="password" name="password" id="password">
+		<label for="confirm">Confirm the password</label>
+		<input type="password" name="confirm" id="confirm">
+ 		<input type="submit" value="Reset Password" class="button">
+ 		<input type="submit" value="Back" class="button1" onclick="window.location.href='Login.jsp';">
  	</form>
 	</div>
 </body>
